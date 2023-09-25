@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Travel Website</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="task1.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="start">
+            <h1>Travel is to Live</h1>
+            <br>
+        </div>
+        <div class="bar">
+            <a href="#Home">Home</a>
+            <a href="#Book123">Places</a>
+            <a href="#Contact">Contact</a>
+            <a href="#">Login</a>
+            <a href="#" class="signin" style="margin-right: 50px;">Signin</a>
+            <select id="formatBlock" class="adv-option-button" style="width:200px;height: 30px;border:solid;"   >
+                <option value="Select" id="Places">Select Places</option>
+                <option value="India" id="Book12">India</option>
+                <option value="H2" id="Book12">Switzerland</option>
+                <option value="H3" id="Book12">Canada</option>
+                <option value="H4" id="Book12">Dubai</option>
+                <option value="H5" id="Book12">Paris</option>
+                <option value="H6" id="Book12">Japan</option>
+                <option value="H6" id="Book12">Russia</option>
+                <option value="H6" id="Book12">Germany</option>
+            </select>
+            <button style="font-weight: bold" class="search"><a href="#Book123" style="text-align: center;margin-right:10px;">search</a></button>
+        </div>
+    </div>
+
+    <div class="pages" id="Home">
+        <div class="heading" style="font-weight: bolder;">
+            <div class="main">
+                <h1 style="font-size: 50px;">World To Live!!!</h1>
+                <br>
+                <p style="font-weight: bolder; font-size:larger">Join the journey of a lifetime! Let our travel website be your passport to unforgettable experiences and memories that last a lifetime.</p>
+                <br>
+                <br>
+                <a href="#" style="background-color: white;">Learn More</a>
+            </div>
+        </div>
+
+        <div class="tours">
+            <br>
+            <h1 style="text-align: center;color:black;text-shadow: 2px 2px 5px #ff9800;">Places To Visit</h1>
+            <br><br>
+            <div class="placebook" style="margin-left: 60px;">
+                <div class="places" id="Booking">
+                    <h2><a id="Book123"></a>India</h2>
+                    <img src="india.jpg" style="width: 300px; height: 250px; border-radius: 12px">
+                    <br>
+                    <p>India invites you to a symphony of sights, sounds,<br> and flavors a captivating journey of a lifetime awaits.</p>
+                    <br>
+                    <div class="star">
+                        <h1 style="font-size: 15px;">Rating</h1>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                    <button class="book" style="width: 100px;height:50px;border-radius:20px;font-weight:bold;font-size:15px;color: white;background-color: black;"><a href="#BookingDetails" style="color: white;">Book Now</a></button>
+                    <button class="offer" style="width: 100px;height:50px;border-radius:20px;font-weight:bold;font-size:15px;color: black;background-color: white;">Offer 15%</button>
+                </div>
+    
+                <div class="places">
+                    <h2>Switzerland</h2>
+                    <img src="switzerland.jpg" style="width: 300px; height: 250px; border-radius: 12px">
+                    <br>
+                    <p>Where Alpine Beauty and Timeless Elegance Embrace. <br>Explore Majestic Peaks, Lakes,in the Heart of Europe.</p>
+                    <br>
+                    <div class="star">
+                        <h1 style="font-size: 15px;">Rating</h1>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <button class="book" style="width: 100px;height:50px;border-radius:20px;font-weight:bold;font-size:15px;color: white;background-color: black;"><a href="#BookingDetails" style="color: white;">Book Now</a></button>
+                    <button class="offer" style="width: 100px;height:50px;border-radius:20px;font-weight:bold;font-size:15px;color: black;background-color: white;">Offer 20%</button>
+                </div>
+    
+                <div class="places">
+                    <h2>Canada</h2>
+                    <img src="canada.jpg" style="width: 300px; height: 250px; border-radius: 12px">
+                    <br>
+                    <p>Where Natural Wonders Stretch from Coast to Coast. <br> A Land of Natural Beauty and Awaits Your Exploration.</p>
+                    <br>
+                    <div class="star">
+                        <h1 style="font-size: 15px;">Rating</h1>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <button class="book" style="width: 100px;height:50px;border-radius:20px;font-weight:bold;font-size:15px;color: white;background-color: black;"> <a href="#BookingDetails" style="color: white;">Book Now</a></button>
+                    <button class="offer" style="width: 100px;height:50px;border-radius:20px;font-weight:bold;font-size:15px;color: black;background-color: white;">Offer 25%</button>
+                </div>
+                <br><br>
+                <div class="places">
+                    <h2>Dubai</h2>
+                    <img src="dubai.jpg" style="width: 300px; height: 250px; border-radius: 12px">
+                    <br>
+                    <p> Where Innovation and Luxury Redefine Exploration. <br> Immerse in Opulent Skyscrapers, Desert Adventures, <br>and Endless Splendor in the Desert Oasis</p>
+                    <br>
+                    <div class="star">
+                        <h1 style="font-size: 15px;">Rating</h1>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <button class="book" style="width: 100px;height:50px;border-radius:20px;font-weight:bold;font-size:15px;color: white;background-color: black;"><a href="#BookingDetails" style="color: white;">Book Now</a></button>
+                    <button class="offer" style="width: 100px;height:50px;border-radius:20px;font-weight:bold;font-size:15px;color: black;background-color: white;">Offer 10%</button>
+                </div>
+    
+                <div class="places">
+                    <h2>Paris</h2>
+                    <img src="paris.jpg" style="width: 300px; height: 250px; border-radius: 12px">
+                    <br>
+                    <p>The City of Love and Light. <br>Roam Cobblestone Streets, Admire Iconic Landmarks, <br>and Savor Culinary Delights in the Heart of France.</p>
+                    <br>
+                    <div class="star">
+                        <h1 style="font-size: 15px;">Rating</h1>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                
+                    <button class="book" style="width: 100px;height:50px;border-radius:20px;font-weight:bold;font-size:15px;color: white;background-color: black;"><a href="#BookingDetails" style="color: white;">Book Now</a> </button>
+                    <button class="offer" style="width: 100px;height:50px;border-radius:20px;font-weight:bold;font-size:15px;color: black;background-color: white;">Offer 20%</button>
+                </div>
+    
+                <div class="places">
+                    <h2>Japan</h2>
+                    <img src="japan.jpg" style="width: 300px; height: 250px; border-radius: 12px">
+                    <br>
+                    <p> Where Tradition Meets Innovation. <br> Experience Zen Serenity, Cutting-Edge Technology, and <br> Timeless Culture in the Land of the Rising Sun</p>
+                    <br>
+                    <div class="star">
+                        <h1 style="font-size: 15px;">Rating</h1>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <button class="book" style="width: 100px;height:50px;border-radius:20px;font-weight:bold;font-size:15px;color: white;background-color: black;"><a href="#BookingDetails" style="color: white;">Book Now</a></button>
+                    <button class="offer" style="width: 100px;height:50px;border-radius:20px;font-weight:bold;font-size:15px;color: black;background-color: white;">Offer 15%</button>
+                </div>
+    
+                <br><br>
+                <div class="places">
+                    <h2>Russia</h2>
+                    <img src="russia.jpg" style="width: 300px; height: 250px; border-radius: 12px">
+                    <br>
+                    <p>A Tapestry of History and Natural Grandeur. <br>Explore Vast Landscapes, Rich Heritage, and <br> Architectural Marvels in the World's Largest Country.</p>
+                    <br>
+                    <div class="star">
+                        <h1 style="font-size: 15px;">Rating</h1>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <button class="book" style="width: 100px;height:50px;border-radius:20px;font-weight:bold;font-size:15px;color: white;background-color: black;"><a href="#BookingDetails" style="color: white;">Book Now</a> </button>
+                    <button class="offer" style="width: 100px;height:50px;border-radius:20px;font-weight:bold;font-size:15px;color: black;background-color: white;">Offer 35%</button>
+                </div>
+    
+                <div class="places">
+                    <h2>Germany</h2>
+                    <img src="germany.jpg" style="width: 300px; height: 250px; border-radius: 12px">
+                    <br>
+                    <p>Where History and Modernity Coexist. <br> Journey through Storybook Castles, Bustling Cities, <br>and Timeless Culture in the Heart of Europe.</p>
+                    <br>
+                    <div class="star">
+                        <h1 style="font-size: 15px;">Rating</h1>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <button class="book" style="width: 100px;height:50px;border-radius:20px;font-weight:bold;font-size:15px;color: white;background-color: black;"><a href="#BookingDetails" style="color: white;">Book Now</a> </button>
+                    <button class="offer" style="width: 100px;height:50px;border-radius:20px;font-weight:bold;font-size:15px;color: black;background-color: white;">Offer 25%</button>
+                </div>
+            </div>
+            </div>
+    </div>
+
+    <br><br><br><br>
+    <section class="BookingPage" >
+        <div class="Bp"  id="BookingDetails">
+            <h1 style="text-align: center;font-size:40px;font-weight:bolder;" class="BookD">Booking Details</h1>
+            <div class="details">
+                <form action="#" style="margin-left: 20px;">
+                    <label for="fname">Name:</label><br>
+                    <input type="fame" id="fname" style="width:900px;height:auto;border-radius:4.0px;border:solid;" placeholder="Your Name"><br><br>
+                    <div class="fromto">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" style="width:900px;height:30px;border-radius:4.0px;border:solid;" placeholder="E-mail id">
+                        <label for="Contactno">ContactNo:</label>
+                        <input type="Contactno" id="Contactno" style="width:900px;height:30px;border-radius:4.0px;border:solid;" placeholder="Contact No">
+                    </div><br>
+                    <div class="fromto">
+                        <label for="from">From:</label><br>
+                        <select id="formatBlock" class="adv-option-button" style="width:300px;height: 30px;border:solid;">
+                            <option value="Select" id="Places">Select Place</option>
+                            <option value="India" id="Book12">India</option>
+                            <option value="H2" id="Book12">Switzerland</option>
+                            <option value="H3" id="Book12">Canada</option>
+                            <option value="H4" id="Book12">Dubai</option>
+                            <option value="H5" id="Book12">Paris</option>
+                            <option value="H6" id="Book12">Japan</option>
+                            <option value="H6" id="Book12">Russia</option>
+                            <option value="H6" id="Book12">Germany</option>
+                        </select>
+                        <label for="to">To:</label><br>
+                        <select id="formatBlock" class="adv-option-button" style="width:300px;height: 30px;border:solid;">
+                            <option value="Select" id="Places">Select Place</option>
+                            <option value="India" id="Book12">India</option>
+                            <option value="H2" id="Book12">Switzerland</option>
+                            <option value="H3" id="Book12">Canada</option>
+                            <option value="H4" id="Book12">Dubai</option>
+                            <option value="H5" id="Book12">Paris</option>
+                            <option value="H6" id="Book12">Japan</option>
+                            <option value="H6" id="Book12">Russia</option>
+                            <option value="H6" id="Book12">Germany</option>
+                        </select>
+                    </div><br><br>
+                    <div class="fromto">
+                        <label for="Adults">Adults:</label><br>
+                        <select id="formatBlock" class="adv-option-button" style="width:300px;height: 30px;border:solid;">
+                            <option value="Select" id="no">Number</option>
+                            <option value="India" id="Book12">01</option>
+                            <option value="H2" id="Book12">02</option>
+                            <option value="H3" id="Book12">03</option>
+                            <option value="H4" id="Book12">04</option>
+                            <option value="H5" id="Book12">05</option>
+                        </select>
+                        <label for="Children">Children:</label><br>
+                        <select id="formatBlock" class="adv-option-button" style="width:200px;height: 30px;border:solid;">
+                            <option value="Select" id="no">Number</option>
+                            <option value="India" id="Book12">01</option>
+                            <option value="H2" id="Book12">02</option>
+                            <option value="H3" id="Book12">03</option>
+                            <option value="H4" id="Book12">04</option>
+                            <option value="H5" id="Book12">05</option>
+                        </select>
+                    </div><br>
+                    <label for="travelclass">Travel Class:</label><br>  
+                    <select id="formatBlock" class="adv-option-button" style="width:800px;height:auto;border-radius:5.0px;border:solid;">
+                        <option value="Select" id="no">Travel Class</option>
+                        <option value="India" id="Book12">First Class</option>
+                        <option value="H2" id="Book12">Buisness Class</option>
+                        <option value="H3" id="Book12">Economy Class</option>
+                    </select><br><br>
+                    <div class="fromto">
+                        <label for="depdate">Departure Date:</label>
+                        <input type="depdate" id="depdate" placeholder="DD-MM-YYYY" style="width:200px;height: 30px;border:solid;">
+                        <label for="deptime">Departure Time:</label>
+                        <input type="deptime" id="deptime" placeholder="hr:min:sec" style="width:300px;height: 30px;border:solid;">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </section><br><br><br><br>
+    <section class="testimonials">
+        <div class="container">
+            <h1>testimonials</h1>
+            <p class="test-center">.....</p>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="profile">
+                        <img src="r1.jpg" class="user">
+                        <br><br><br><br><br><br>
+                        <blockquote>I found the travel website incredibly user-friendly and informative. Booking flights and accommodations was a breeze,
+                            and the detailed destination guides were provided for my trip.Fantastic online travel resource</blockquote>
+                        <h3>Krish Dutt</h3>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="profile">
+                        <img src="re.jpg" class="user">
+                        <br><br><br><br><br><br>
+                        <blockquote>Using this travel website was a breeze! The search filters made it easy to find the perfect hotel, 
+                        and the prices were unbeatable. I booked my dream vacation hassle-free</blockquote>
+                        <h3>Nethra Joshi</h3>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="profile">
+                        <img src="r2.jpg" class="user">
+                        <br><br><br><br><br><br>
+                        <blockquote>Booking my vacation on [Travel Website] was a breeze. The website's interface was user-friendly, 
+                        the prices were competitive, and I found the perfect hotel in minutes. Highly recommended!</blockquote>
+                        <h3>Rahul Reddy</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br><br>
+    <footer>
+        <div class="follow" id="Contact">
+            <br>
+            <h2 style="text-align: center;color: white">Follow Us More On</h2>
+            <div class="icons">
+                <a href="#Contact">
+                   <img src="insta.jpg" alt="Instagram Icon" style="width: 50px; height: 50px">
+                </a>
+                <a href="#Contact">
+                   <img src="facebook.jpg" alt="Facebook Icon" style="width: 50px; height: 50px">
+                </a>
+                <a href="#Contact">
+                   <img src="twitter.jpg" alt="Twitter Icon" style="width: 50px; height: 50px">
+                </a>
+                <a href="#Contact">
+                   <img src="telegram.jpg" alt="Telegram Icon" style="width: 50px; height: 50px">
+                </a>
+                <a href="#Contact">
+                   <img src="youtube.jpg" alt="YouTube Icon" style="width: 50px; height: 50px">
+                </a>
+                <a href="#Contact">
+                   <img src="pinterest.jpg" alt="Pinterest Icon" style="width: 50px; height: 50px">
+                </a>
+            </div>
+            <div class="end">
+                <p>Contact us:+919135842666</p>
+                <p>Copyright &copy;2023 Designed by Anjali</p>
+            </div>
+        </div>
+            <br><br>
+            <div class="bar" style="color: white;">
+                <a href="#Home">Home</a>
+                <a href="#Places">Places</a>
+                <a href="#Booking">Booking</a>
+                <a href="#Contact">Contact</a>
+            </div>
+    </footer>
+
+</body>
+</html> 
+
+				
